@@ -7,6 +7,9 @@ sudo apt update
 # The list will be added to a file for a storage
 apt list --upgradable > test.txt
 
+# This command will remove the first line of the file 
+# It is removed because it doesn't contain important information
+
 cat test.txt | tail -n +2 > test.txt
 
 cat test.txt | wc -l
