@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# name :    Antonio Rios
+# 
+
 # This command will update the packages on the system
 sudo apt update
 
